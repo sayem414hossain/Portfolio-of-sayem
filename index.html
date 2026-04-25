@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sayem Portfolio website</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <!---- nav-bar section -->
+    <nav class="navbar">
+        <!-- <a href="#" class="logo"><span>Sayem Hossain</span></a> -->
+        <ul class="nav-bar">
+            <li>
+                <a href="#about"> <i class="fa-solid fa-id-badge"></i>About</a>
+            </li>
+                
+            <li>
+                <a href="#Skills"> <i class="fa-solid fa-gears"></i>Skills</a>
+            </li>       
+
+            <li>
+                <a href="#Project"><i class="fa-solid fa-folder-open"></i>Project</a>
+            </li>
+            <li>
+                <a href="#Experience"><i class="fa-solid fa-building"></i>Experience</a>
+            </li>
+            <li>
+                <a href="#Contact"><i class="fa-solid fa-envelope"></i>Contact</a>
+            </li>
+        </ul>
+
+    <!-- Hamburger (hidden on desktop)--> 
+        <div class="menu-toggle" id="menu-toggle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <!--<button class="btn">Visit Github</button>-->
+
+    </nav>
+
+ <!--hero section -->
+    <section class="hero">
+        <!-- left side -->
+        <div class="hero-text">
+            <h1>Hi, I'm Sayem Hossain</h1>
+            <p class="hero-pera">Frontend web developer</p>
+            <br>
+            <p class="hero-para2">I create responsive and user-friendly websites using modern web technologies.</p>
+            <br>
+            <button class="cv-btn" ><i class="fa-solid fa-envelope"></i>Download cv</button>
+            <button class="view-btn"><i class="fa-solid fa-play"></i>View Projects</button>
+        </div>        
+
+        <!--  right side  -->
+        <div class="hero-image">
+            <img src="Gemini_Generated_Image_b0zi5db0zi5db0zi.png">
+        </div>
+    </section>
+
+    <!-- about section -->
+    <section class="about">
+        <!-- left side -->
+        <div class="about-image">
+            <img src="_MG_6842.jpg">
+        </div>
+
+        <!--  right side -->
+          <div class="about-content">
+            <h2>About Me</h2>
+            <p>I am a passionate frontend web developer with experience in creating responsive and user-friendly websites. I specialize in using modern web technologies to bring ideas to life.</p>
+
+            <!-- badge -->
+             <div class="badges">
+                <span class="badge">📍 Bangladesh</span>
+                <span class="badge">💼 Freelance</span>
+                <span class="badge">✅ Open to Work</span>
+             </div>
+          </div>
+    </section>
+    <!--secvice section-->
+
+    <section class="service-section">
+        <div class="service-title">
+            <h2>What I can Do</h2>
+        </div>
+
+        <div class="secvices">
+            <div class="service-card">
+                <i class="fa-solid fa-laptop"></i>
+                <p>Responcive Design</p>
+            </div>
+            <div class="service-card">
+                <i class="fa-brands fa-figma"></i>
+                <p>Figma to HTML</p>
+            </div>
+            <div class="service-card">
+                <i class="fa-brands fa-react"></i>
+                <p>React UI</p>
+            </div>
+            <div class="service-card">
+                  <i class="fa-solid fa-gauge"></i>
+                  <p>Optimaization</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills-section">
+
+        <div class="skills-title">
+            <h2>My Skills</h2>
+        </div>
+
+        <span class="skills-type"><i class="fa-brands fa-html5"></i>Frontend</span>
+
+        <div class="skills-container">
+
+            <!-- Group 1 -->
+            <div class="skills-card">
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3-alt"></i>
+                <i class="fa-brands fa-js"></i>
+            </div>
+
+            <!-- Group 2 -->
+            <div class="skills-card">
+                <i class="fa-brands fa-react"></i>
+                <i class="fa-brands fa-bootstrap"></i>
+                <i class="fa-brands fa-github"></i>
+            </div>
+
+            <!-- Group 3 -->
+            <div class="skills-card">
+                <i class="fa-brands fa-node"></i>
+                <i class="fa-brands fa-npm"></i>
+                <i class="fa-solid fa-database"></i>
+            </div>
+
+            <!-- Group 4 -->
+            <div class="skills-card">
+                <i class="fa-brands fa-node"></i>
+                <i class="fa-brands fa-npm"></i>
+                <i class="fa-solid fa-database"></i>
+            </div>
+</section>
+
+<section class="projects-section">
+    
+    <span><i class="fa-solid fa-diagram-project"></i>My Projects</span>
+    
+    <div class="projects-container">
+        
+        <div class="project-card">
+            <h3>Calculator</h3>
+            <img src="calculator.png" alt="Project 1">
+            <p class="project-description">Discription: This is a simple calculator application.
+                it allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. The calculator features a user-friendly interface with buttons for digits and operations, making it easy to use for quick calculations. 
+            </p>
+           
+        </div>
+        
+        <div class="project-card">
+            <h3>Random password Generator</h3>
+            <img src="password_generator.png" alt="Project 2">
+            <p class="project-description">Description: This is a random password generator application. It allows users to create secure and unique passwords with various customization options. i used there css, javascript</p>
+          
+        </div>
+
+        <div class="project-card">
+            <h3>Notes</h3>
+            <img src="note.png" alt="Project 3">
+            <p class="project-description">Description: A simple note-taking application where users can create, edit, and delete notes.</p>
+           
+        </div>
+
+         <div class="project-card">
+            <h3>TODO List</h3>
+            <img src="to_do_list.png" alt="Project 3">
+            <p class="project-description">Description: A simple TODO list application where users can create, edit, and delete tasks.</p>
+           
+        </div>
+
+        <div class="project-card">
+            <h3>Age Calculator</h3>
+            <img src="age_calculator.png" alt="Project 3">
+            <p class="project-description">Description: A simple age calculator application where users can enter their birth date and calculate their age.</p>
+         
+        </div>
+
+        <div class="project-card">
+            <h3>Age Calander</h3>
+            <img src="calander.png" alt="Project 3">
+            <p class="project-description">Description: A simple age calendar application where users can view their age in different formats.</p>
+         
+        </div>
+    </div>
+</section>
+
+<section class="contact-section">
+    
+    <div class="contact-info">
+        <h3>Contact Me</h3>
+        <p>Get in Touch</p>
+        <p><i class="fa-solid fa-envelope"></i> mdsayemhossain416@gmail.com</p>
+    </div>
+
+    <div class="send-message">
+        <div class="social-media">
+            <span class="icon-portfolio"><i class="fa-solid fa-briefcase"></i> Portfolio</span>
+            <span class="icon-linkedin"><i class="fa-brands fa-linkedin"></i>Linkedin</span>
+            <span class="icon-github"><i class="fa-brands fa-github"></i>GitHub</span>
+        </div>
+        
+        <button class="send-btn"><i class="fa-solid fa-arrow-up"></i>Send Message</button>
+    </div>
+</section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
